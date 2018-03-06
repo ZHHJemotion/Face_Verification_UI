@@ -17,8 +17,8 @@ import plyvel
 import caffe
 import lmdb
 import sys
-sys.path.append('/Users/zhangxingjian/caffe/python/')
-# sys.path.extend([/Users/zhangxingjian/caffe/python])
+sys.path.append('/Users/caffe/python/')
+# sys.path.extend([/Users/caffe/python])
 
 
 

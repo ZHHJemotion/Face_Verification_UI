@@ -24,8 +24,8 @@ Mat faceRotation(Mat srcImage, Mat dstImage);
 
 // the global variables
 // Copy this file from opencv/data/haarscascades to target folder (it is very important!!!)
-string face_cascade_name = "/Users/zhangxingjian/Desktop/Programming/C++/face_detection/haarcascade_frontalface/haarcascade_frontalface_alt.xml";
-//string face_cascade_name = "/Users/zhangxingjian/Desktop/Programming/C++/face_detection/haarcascade_frontalface/haarcascade_frontalface_alt2.xml";
+string face_cascade_name = "/Users/Desktop/Programming/C++/face_detection/haarcascade_frontalface/haarcascade_frontalface_alt.xml";
+//string face_cascade_name = "/Users/Desktop/Programming/C++/face_detection/haarcascade_frontalface/haarcascade_frontalface_alt2.xml";
 CascadeClassifier faceCascade;
 
 

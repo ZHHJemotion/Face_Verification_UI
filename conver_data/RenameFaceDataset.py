@@ -3,7 +3,7 @@ import os
 
 def rename():
     count = 1
-    path = '/Users/zhangxingjian/Desktop/Programming/Python/Conver_Data/Database_aligned_balanced/Adam'
+    path = '/Users/Desktop/Programming/Python/Conver_Data/Database_aligned_balanced/Adam'
 
     filelist = os.listdir(path)   #该文件夹下所有的文件（包括文件夹）
     for files in filelist:  #遍历所有文件

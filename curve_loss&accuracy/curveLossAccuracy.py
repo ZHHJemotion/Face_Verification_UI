@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # 导入caffe
 import sys
-sys.path.append("/Users/zhangxingjian/caffe/python")
+sys.path.append("/Users/caffe/python")
 import caffe
 
 

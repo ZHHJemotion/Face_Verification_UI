@@ -5,8 +5,8 @@ import caffe
 
 def concat_image():
 
-    img1 = cv2.imread("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/073A04Gf_aligned.png")
-    img2 = cv2.imread("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/075A06_aligned.png")
+    img1 = cv2.imread("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/073A04Gf_aligned.png")
+    img2 = cv2.imread("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/075A06_aligned.png")
 
     img1 = np.float64(img1)
     img1 = img1[:, :, (2, 1, 0)]
@@ -20,7 +20,7 @@ def concat_image():
 
     datum = caffe.io.array_to_datum(img, label=None)
 
-    # cv2.imwrite("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/concat_face.png",
+    # cv2.imwrite("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/concat_face.png",
     #            img, [int(cv2.IMWRITE_PNG_COMPRESSION), 0])
 
     return datum
