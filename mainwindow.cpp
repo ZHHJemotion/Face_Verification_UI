@@ -40,10 +40,10 @@ using namespace dlib;
 using namespace cv;
 using namespace std;
 
-#define faceFile string("/Users/zhangxingjian/Desktop/master thesis paper/Face_Verification_UI/data/originalFace/")
-#define orgFile string("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/originalFace/")
-#define landmarkFile string("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceLandmarkDetection/")
-#define alignFile string("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/")
+#define faceFile string("/Users/Desktop/master thesis paper/Face_Verification_UI/data/originalFace/")
+#define orgFile string("/Users/Desktop/Programming/C++/Face_Verification_UI/data/originalFace/")
+#define landmarkFile string("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceLandmarkDetection/")
+#define alignFile string("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/")
 
 //#define image_1 string("075A05.png")
 //#define image_2 string("079A04.png")

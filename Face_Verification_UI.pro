@@ -77,15 +77,15 @@ LIBS += -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_video -lopencv_
 #------------------------------------------------
 DEFINES += CPU_ONLY
 
-INCLUDEPATH += /Users/zhangxingjian/caffe-face/include
-INCLUDEPATH += /Users/zhangxingjian/caffe-face/include/caffe/layers
-INCLUDEPATH += /Users/zhangxingjian/caffe-face/src/caffe/proto
+INCLUDEPATH += /Users/caffe-face/include
+INCLUDEPATH += /Users/caffe-face/include/caffe/layers
+INCLUDEPATH += /Users/caffe-face/src/caffe/proto
 INCLUDEPATH += /usr/local/include/boost
 INCLUDEPATH += /usr/local/include/gflags
 INCLUDEPATH += /usr/local/include/glog
 INCLUDEPATH += /usr/local/include/leveldb
 
-LIBS += -L/Users/zhangxingjian/caffe-face/build/lib\
+LIBS += -L/Users/caffe-face/build/lib\
      -lcaffe\
 
 LIBS += -L/usr/local/lib\

@@ -20,9 +20,9 @@ bool MyGlobal::init()
 {
     // 1. define the paths of data
     // -----------------------------------------------
-    pathOriginalImage = PathManage::makePathStr("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/originalFace/");
-    pathFaceLandmarkImage = PathManage::makePathStr("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceLandmarkDetection/");
-    pathFaceAlignmentImage = PathManage::makePathStr("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/");
+    pathOriginalImage = PathManage::makePathStr("/Users/Desktop/Programming/C++/Face_Verification_UI/data/originalFace/");
+    pathFaceLandmarkImage = PathManage::makePathStr("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceLandmarkDetection/");
+    pathFaceAlignmentImage = PathManage::makePathStr("/Users/Desktop/Programming/C++/Face_Verification_UI/data/faceAlignment/");
 
     // 2. create the paths of data
     // -----------------------------------------------

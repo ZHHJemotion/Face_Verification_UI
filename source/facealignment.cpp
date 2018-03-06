@@ -8,7 +8,7 @@ Mat FaceAlignment(Mat org)
     // define a shape predictor, used to predict the face landmark of a given image
     // using shape_predictor_68_face_landmarks.dat to load model
     shape_predictor sp;
-    deserialize("/Users/zhangxingjian/dlib/examples/build/shape_predictor_68_face_landmarks.dat") >> sp;
+    deserialize("/Users/dlib/examples/build/shape_predictor_68_face_landmarks.dat") >> sp;
 
     // convet Mat to array2d<rgb_pixel> using with dlib
     array2d<rgb_pixel> img;

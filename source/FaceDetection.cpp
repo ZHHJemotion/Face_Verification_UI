@@ -19,7 +19,7 @@ array2d<rgb_pixel> FaceDetection::LandmarkDetection(array2d<rgb_pixel> &image)
     // define a shape predictor, used to predict the face landmark of a given image
     // using shape_predictor_68_face_landmarks.dat to load model
     shape_predictor sp;
-    deserialize("/Users/zhangxingjian/dlib/examples/build/shape_predictor_68_face_landmarks.dat") >> sp;
+    deserialize("/Users/dlib/examples/build/shape_predictor_68_face_landmarks.dat") >> sp;
 
     image_window win, win_face;
 
@@ -54,7 +54,7 @@ array2d<rgb_pixel> FaceDetection::LandmarkDetection(array2d<rgb_pixel> &image)
     extract_image_chips(image, get_face_chip_details(shapes), face_chips);
     win_faces.set_image(tile_images(face_chips));
 
-    //save_png(tile_images(face_chips), "/Users/zhangxingjian/Desktop/Programming/Python/Conver_Data/detected.png");
+    //save_png(tile_images(face_chips), "/Users/Desktop/Programming/Python/Conver_Data/detected.png");
 
     return shapes;
 }

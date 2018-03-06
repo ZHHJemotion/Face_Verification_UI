@@ -20,8 +20,8 @@ namespace caffe
     extern INSTANTIATE_CLASS(ContrastiveLossLayer);
 }
 
-#define deployFile string("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/prototxt/face_deploy_noBN.prototxt")
-#define caffemodelFile string("/Users/zhangxingjian/Desktop/Programming/C++/Face_Verification_UI/caffemodel/face_train_test_iter_20000.caffemodel")
+#define deployFile string("/Users/Desktop/Programming/C++/Face_Verification_UI/prototxt/face_deploy_noBN.prototxt")
+#define caffemodelFile string("/Users/Desktop/Programming/C++/Face_Verification_UI/caffemodel/face_train_test_iter_20000.caffemodel")
 
 template <typename Dtype>
 
