@@ -2,8 +2,8 @@ import pandas as pd
 from matplotlib import *
 from matplotlib.pyplot import *
 
-train_log = pd.read_csv("/Users/zhangxingjian/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.log.train")
-test_log = pd.read_csv("/Users/zhangxingjian/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.log.test")
+train_log = pd.read_csv("/Users/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.log.train")
+test_log = pd.read_csv("/Users/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.log.test")
 
 _, ax1 = subplots(figsize=(8, 6))
 #ax2 = ax1.twinx()
