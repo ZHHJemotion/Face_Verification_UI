@@ -32,4 +32,4 @@ ax1.set_ylabel('Loss')
 legend(handles = [trainLoss, testLoss,], labels = ['train loss of face_DeepID_GoogleNet_train_add_2', 'test loss of face_DeepID_GoogleNet_train_add_2'], loc = 'best')
 
 #ax2.set_ylabel('test accuracy')
-savefig("/Users/zhangxingjian/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.png") #save image as png
+savefig("/Users/Desktop/draw_loss_curve/face_DeepID_GoogleNet_train_add_2.png") #save image as png
